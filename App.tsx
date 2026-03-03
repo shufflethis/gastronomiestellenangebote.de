@@ -8,6 +8,8 @@ import ForEmployers from './pages/ForEmployers';
 import CareerAdvice from './pages/CareerAdvice';
 import Impressum from './pages/Impressum';
 import AiAssistant from './components/AiAssistant';
+import Datenschutz from './pages/Datenschutz';
+import AutorSeite from './pages/AutorSeite';
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -31,6 +33,9 @@ const App: React.FC = () => {
             <Route path="/arbeitgeber" element={<ForEmployers />} />
             <Route path="/karriere" element={<CareerAdvice />} />
             <Route path="/impressum" element={<Impressum />} />
+                    {/* // HR-UPDATER: v1.0 */}
+          <Route path="/datenschutz" element={<Datenschutz />} />
+          <Route path="/autor/thomas-sander" element={<AutorSeite />} />
           </Routes>
         </main>
         <AiAssistant />

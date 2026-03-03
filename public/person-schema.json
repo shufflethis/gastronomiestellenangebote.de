@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas Sander",
+  "url": "https://gastronomiestellenangebote.de/autor/thomas-sander",
+  "jobTitle": "Gruender & Geschaeftsfuehrer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "gastronomiestellenangebote.de",
+    "url": "https://gastronomiestellenangebote.de"
+  },
+  "description": "Gruender von gastronomiestellenangebote.de - spezialisiertes Jobportal fuer Gastronomie-Stellenangebote.",
+  "knowsAbout": [
+    "Gastronomie",
+    "Personalwesen",
+    "Recruiting",
+    "Jobportale"
+  ]
+}

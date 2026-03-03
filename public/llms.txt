@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# gastronomiestellenangebote.de - Gastronomie Stellenangebote
+
+> gastronomiestellenangebote.de ist ein spezialisiertes Jobportal fuer Gastronomie-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Gastronomie
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://gastronomiestellenangebote.de
+- Arbeitgeber-Kontakt: https://gastronomiestellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://gastronomiestellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Gastronomie-Stellenangebote
+- Karriere-Ratgeber fuer Gastronomie
+- Gehaltsvergleiche und Brancheninformationen
