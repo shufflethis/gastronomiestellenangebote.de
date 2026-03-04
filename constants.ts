@@ -12,6 +12,105 @@ export const NAV_ITEMS: NavItem[] = [
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Servicemitarbeiter für die Gastronomie (m/w/d) *Minijob*',
+    company: 'Theater Lübeck gGmbH',
+    location: 'Lübeck',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicemitarbeiter für die Gastronomie (m/w/d) *Minijob*',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '2',
+    title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
+    company: 'Restaurant in der Rommelmühle',
+    location: 'Bietigheim-Bissingen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
+    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '3',
+    title: 'Fachkraft Gastronomie ? (w/m/d)',
+    company: 'BUHL Personal GmbH - Niederlassung Leipzig',
+    location: 'Leipzig',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft Gastronomie ? (w/m/d)',
+    tags: ['Restaurantfachmann/-frau'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '4',
+    title: 'Servicekraft ? (w/m/d) - Gastronomie',
+    company: 'BUHL Personal GmbH - Niederlassung Leipzig',
+    location: 'Leipzig',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft ? (w/m/d) - Gastronomie',
+    tags: ['Restaurantfachmann/-frau'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '5',
+    title: 'Studentenjob ? (w/m/d) - Gastronomie',
+    company: 'BUHL Personal GmbH - Niederlassung Leipzig',
+    location: 'Leipzig',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Studentenjob ? (w/m/d) - Gastronomie',
+    tags: ['Restaurantfachmann/-frau'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '6',
+    title: 'Servicekraft ? (w/m/d) - Gastronomie',
+    company: 'BUHL Personal GmbH - Niederlassung Dortmund',
+    location: 'Dortmund',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft ? (w/m/d) - Gastronomie',
+    tags: ['Restaurantfachmann/-frau'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '7',
+    title: 'Studentenjob ? (w/m/d) - Gastronomie',
+    company: 'BUHL Personal GmbH - Niederlassung Kassel',
+    location: 'Kassel, Hessen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Studentenjob ? (w/m/d) - Gastronomie',
+    tags: ['Restaurantfachmann/-frau'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '8',
+    title: 'Studentenjob ? (w/m/d) - Gastronomie',
+    company: 'BUHL Personal GmbH - Niederlassung Kassel',
+    location: 'Fulda',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Studentenjob ? (w/m/d) - Gastronomie',
+    tags: ['Restaurantfachmann/-frau'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '9',
+    title: 'Servicekraft ? (w/m/d) - Gastronomie',
+    company: 'BUHL Personal GmbH - Niederlassung Kassel',
+    location: 'Fulda',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft ? (w/m/d) - Gastronomie',
+    tags: ['Restaurantfachmann/-frau'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '10',
     title: 'Servicemitarbeiter (m/w/d) Gastronomie in Leonberg',
     company: 'tempster GmbH',
     location: 'Leonberg, Württemberg',
@@ -22,7 +121,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '2',
+    id: '11',
     title: 'Servicekraft - Gastronomie und Gastgewerbe',
     company: 'TRANSFER Planconsult Datentransfer und Anlagenconsulting GmbH',
     location: 'Wien',
@@ -33,7 +132,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '3',
+    id: '12',
     title: 'Servicekraft - Gastronomie und Gastgewerbe',
     company: 'Andi\'s Skihotel GmbH',
     location: 'Obertauern',
@@ -44,7 +143,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '4',
+    id: '13',
     title: 'Servicekräfte in der Gastronomie',
     company: 'FM Culinary GmbH',
     location: 'Bad Schönborn',
@@ -55,7 +154,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '5',
+    id: '14',
     title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
     company: 'Stiftl Gastronomie Unternehmensgruppe',
     location: 'München',
@@ -66,7 +165,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '6',
+    id: '15',
     title: 'Servicekraft - Gastronomie und Gastgewerbe',
     company: 'La Strada Robert Yaldiz Gastronomie GmbH',
     location: 'Herzogenburg',
@@ -77,7 +176,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '7',
+    id: '16',
     title: 'Servicekraft (m/w/d) Gastronomie & Hotellerie',
     company: 'ARWA Personaldienstleistungen GmbH',
     location: 'Dresden',
@@ -88,7 +187,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '8',
+    id: '17',
     title: 'Fachkraft für Gastronomie Schwerpunkt Systemgastronomie',
     company: 'ABV Braunschweig/MD e.V. - Lohn',
     location: 'Braunschweig',
@@ -99,7 +198,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '9',
+    id: '18',
     title: 'Servicemitarbeiter (m/w/d) in der Gastronomie',
     company: 'BESTSTEPS by Bernd Konschak',
     location: 'Werl',
@@ -110,7 +209,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-01'
   },
   {
-    id: '10',
+    id: '19',
     title: 'Servicekraft-Gastronomie (m/w/d)',
     company: 'Hotel-Restaurant Die kleine Blume GmbH',
     location: 'Erfweiler',
@@ -121,7 +220,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-01'
   },
   {
-    id: '11',
+    id: '20',
     title: 'Gastronomie Helfer/in',
     company: 'Cafe-Bistro "Zum Vasi"',
     location: 'St. Blasien',
@@ -132,7 +231,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-27'
   },
   {
-    id: '12',
+    id: '21',
     title: 'Servicemitarbeiter für die Gastronomie (m/w/d)',
     company: 'Allianz Deutschland AG',
     location: 'Stuttgart',
@@ -143,7 +242,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-26'
   },
   {
-    id: '13',
+    id: '22',
     title: 'Fachkraft - Gastronomie',
     company: 'Janus RBS Dienstleistungs GmbH',
     location: 'Reichenau an der Rax',
@@ -154,7 +253,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-26'
   },
   {
-    id: '14',
+    id: '23',
     title: 'Mitarbeiter (m/w/d) Gastronomie',
     company: 'GLOBUS Handelshof GmbH & Co.KG Betriebsstätte Gensingen',
     location: 'Gensingen',
@@ -165,7 +264,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-25'
   },
   {
-    id: '15',
+    id: '24',
     title: 'Servicekraft - Gastronomie(w/m/d)',
     company: 'Jacqueline Rudolph DAS EISlädchen',
     location: 'Schkeuditz',
@@ -176,7 +275,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-25'
   },
   {
-    id: '16',
+    id: '25',
     title: 'Teamleiter Gastronomie (m/w/d)',
     company: 'Ravensburger AG',
     location: 'Meckenbeuren',
@@ -185,105 +284,6 @@ export const MOCK_JOBS: Job[] = [
     description: 'Teamleiter Gastronomie (m/w/d)',
     tags: ['Fachkraft - Gastronomie'],
     postedAt: '2026-02-25'
-  },
-  {
-    id: '17',
-    title: 'Servicekraft Gastronomie (m/w/d)',
-    company: 'Sol Melia Deutschland GmbH',
-    location: 'Leipzig',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft Gastronomie (m/w/d)',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-02-25'
-  },
-  {
-    id: '18',
-    title: 'Gastronomie',
-    company: 'Weinstube Korkenzieher',
-    location: 'Schweinfurt',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Gastronomie',
-    tags: ['Koch/Köchin'],
-    postedAt: '2026-02-22'
-  },
-  {
-    id: '19',
-    title: 'Mitarbeiter Gastronomie (m/w/d)',
-    company: 'mömax Deutschland GmbH',
-    location: 'Schwäbisch Gmünd',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter Gastronomie (m/w/d)',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-02-22'
-  },
-  {
-    id: '20',
-    title: 'Fachkraft für Gastronomie',
-    company: 'DSR Hotel Holding GmbH',
-    location: 'Wernigerode',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-02-19'
-  },
-  {
-    id: '21',
-    title: 'Fachkraft für Gastronomie',
-    company: 'DSR Hotel Holding GmbH',
-    location: 'Seebad Bansin',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-02-19'
-  },
-  {
-    id: '22',
-    title: 'Fachkraft für Gastronomie',
-    company: 'DSR Hotel Holding GmbH',
-    location: 'Rostock',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-02-19'
-  },
-  {
-    id: '23',
-    title: 'Fachkraft für Gastronomie',
-    company: 'DSR Hotel Holding GmbH',
-    location: 'Lübeck',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-02-19'
-  },
-  {
-    id: '24',
-    title: 'Fachkraft für Gastronomie',
-    company: 'Bäderbetriebsgesellschaft Oldenburg mbH',
-    location: 'Oldenburg (Oldb)',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-02-19'
-  },
-  {
-    id: '25',
-    title: 'Fachkraft für Gastronomie',
-    company: 'Salus Altmark Holding gGmbH',
-    location: 'Stendal',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-02-19'
   }
 ];
 
