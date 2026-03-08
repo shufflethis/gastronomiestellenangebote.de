@@ -12,6 +12,61 @@ export const NAV_ITEMS: NavItem[] = [
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Mitarbeiter (m/w/d) Gastronomie',
+    company: 'Bruno Leo',
+    location: 'Dillenburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter (m/w/d) Gastronomie',
+    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
+    postedAt: '2026-03-05'
+  },
+  {
+    id: '2',
+    title: 'Teamleitung Gastronomie (m/w/d)',
+    company: 'bewaffel dich betriebsgesellschaft mbH',
+    location: 'Halle (Saale)',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Teamleitung Gastronomie (m/w/d)',
+    tags: ['Fachkraft - Küche'],
+    postedAt: '2026-03-05'
+  },
+  {
+    id: '3',
+    title: 'Fachkraft Gastronomie (m/w/d)',
+    company: 'Seitenbacher KG Naturkost',
+    location: 'Buchen (Odenwald)',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft Gastronomie (m/w/d)',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-05'
+  },
+  {
+    id: '4',
+    title: 'Servicekraft Gastronomie',
+    company: 'Rene Reuter Reuters Kitchen Catering & Service',
+    location: 'Düsseldorf',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft Gastronomie',
+    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '5',
+    title: 'Fachkraft - Gastronomie',
+    company: 'Zum Oberjäger Hotel Betrieb s GmbH',
+    location: 'Lackenbach',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-04'
+  },
+  {
+    id: '6',
     title: 'Servicemitarbeiter für die Gastronomie (m/w/d) *Minijob*',
     company: 'Theater Lübeck gGmbH',
     location: 'Lübeck',
@@ -22,7 +77,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '2',
+    id: '7',
     title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
     company: 'Restaurant in der Rommelmühle',
     location: 'Bietigheim-Bissingen',
@@ -33,7 +88,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '3',
+    id: '8',
     title: 'Fachkraft Gastronomie ? (w/m/d)',
     company: 'BUHL Personal GmbH - Niederlassung Leipzig',
     location: 'Leipzig',
@@ -44,7 +99,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '4',
+    id: '9',
     title: 'Servicekraft ? (w/m/d) - Gastronomie',
     company: 'BUHL Personal GmbH - Niederlassung Leipzig',
     location: 'Leipzig',
@@ -55,7 +110,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '5',
+    id: '10',
     title: 'Studentenjob ? (w/m/d) - Gastronomie',
     company: 'BUHL Personal GmbH - Niederlassung Leipzig',
     location: 'Leipzig',
@@ -66,7 +121,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '6',
+    id: '11',
     title: 'Servicekraft ? (w/m/d) - Gastronomie',
     company: 'BUHL Personal GmbH - Niederlassung Dortmund',
     location: 'Dortmund',
@@ -77,7 +132,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '7',
+    id: '12',
     title: 'Studentenjob ? (w/m/d) - Gastronomie',
     company: 'BUHL Personal GmbH - Niederlassung Kassel',
     location: 'Kassel, Hessen',
@@ -88,7 +143,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '8',
+    id: '13',
     title: 'Studentenjob ? (w/m/d) - Gastronomie',
     company: 'BUHL Personal GmbH - Niederlassung Kassel',
     location: 'Fulda',
@@ -99,7 +154,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '9',
+    id: '14',
     title: 'Servicekraft ? (w/m/d) - Gastronomie',
     company: 'BUHL Personal GmbH - Niederlassung Kassel',
     location: 'Fulda',
@@ -110,7 +165,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '10',
+    id: '15',
     title: 'Servicemitarbeiter (m/w/d) Gastronomie in Leonberg',
     company: 'tempster GmbH',
     location: 'Leonberg, Württemberg',
@@ -121,7 +176,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '11',
+    id: '16',
     title: 'Servicekraft - Gastronomie und Gastgewerbe',
     company: 'TRANSFER Planconsult Datentransfer und Anlagenconsulting GmbH',
     location: 'Wien',
@@ -132,7 +187,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '12',
+    id: '17',
     title: 'Servicekraft - Gastronomie und Gastgewerbe',
     company: 'Andi\'s Skihotel GmbH',
     location: 'Obertauern',
@@ -143,7 +198,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '13',
+    id: '18',
     title: 'Servicekräfte in der Gastronomie',
     company: 'FM Culinary GmbH',
     location: 'Bad Schönborn',
@@ -154,7 +209,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '14',
+    id: '19',
     title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
     company: 'Stiftl Gastronomie Unternehmensgruppe',
     location: 'München',
@@ -165,7 +220,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '15',
+    id: '20',
     title: 'Servicekraft - Gastronomie und Gastgewerbe',
     company: 'La Strada Robert Yaldiz Gastronomie GmbH',
     location: 'Herzogenburg',
@@ -176,7 +231,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '16',
+    id: '21',
     title: 'Servicekraft (m/w/d) Gastronomie & Hotellerie',
     company: 'ARWA Personaldienstleistungen GmbH',
     location: 'Dresden',
@@ -187,7 +242,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '17',
+    id: '22',
     title: 'Fachkraft für Gastronomie Schwerpunkt Systemgastronomie',
     company: 'ABV Braunschweig/MD e.V. - Lohn',
     location: 'Braunschweig',
@@ -198,7 +253,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '18',
+    id: '23',
     title: 'Servicemitarbeiter (m/w/d) in der Gastronomie',
     company: 'BESTSTEPS by Bernd Konschak',
     location: 'Werl',
@@ -209,7 +264,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-01'
   },
   {
-    id: '19',
+    id: '24',
     title: 'Servicekraft-Gastronomie (m/w/d)',
     company: 'Hotel-Restaurant Die kleine Blume GmbH',
     location: 'Erfweiler',
@@ -220,7 +275,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-01'
   },
   {
-    id: '20',
+    id: '25',
     title: 'Gastronomie Helfer/in',
     company: 'Cafe-Bistro "Zum Vasi"',
     location: 'St. Blasien',
@@ -229,61 +284,6 @@ export const MOCK_JOBS: Job[] = [
     description: 'Gastronomie Helfer/in',
     tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
     postedAt: '2026-02-27'
-  },
-  {
-    id: '21',
-    title: 'Servicemitarbeiter für die Gastronomie (m/w/d)',
-    company: 'Allianz Deutschland AG',
-    location: 'Stuttgart',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicemitarbeiter für die Gastronomie (m/w/d)',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-02-26'
-  },
-  {
-    id: '22',
-    title: 'Fachkraft - Gastronomie',
-    company: 'Janus RBS Dienstleistungs GmbH',
-    location: 'Reichenau an der Rax',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft - Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-02-26'
-  },
-  {
-    id: '23',
-    title: 'Mitarbeiter (m/w/d) Gastronomie',
-    company: 'GLOBUS Handelshof GmbH & Co.KG Betriebsstätte Gensingen',
-    location: 'Gensingen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter (m/w/d) Gastronomie',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-02-25'
-  },
-  {
-    id: '24',
-    title: 'Servicekraft - Gastronomie(w/m/d)',
-    company: 'Jacqueline Rudolph DAS EISlädchen',
-    location: 'Schkeuditz',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft - Gastronomie(w/m/d)',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-02-25'
-  },
-  {
-    id: '25',
-    title: 'Teamleiter Gastronomie (m/w/d)',
-    company: 'Ravensburger AG',
-    location: 'Meckenbeuren',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Teamleiter Gastronomie (m/w/d)',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-02-25'
   }
 ];
 
