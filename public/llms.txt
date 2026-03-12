@@ -1,19 +1,37 @@
-# HR-UPDATER: v1.0
 # gastronomiestellenangebote.de - Gastronomie Stellenangebote
 
-> gastronomiestellenangebote.de ist ein spezialisiertes Jobportal fuer Gastronomie-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> gastronomiestellenangebote.de ist ein spezialisiertes Jobportal fuer Gastronomie-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Gastronomie
+- Spezialisiertes Jobportal fuer Gastronomie und Hotellerie
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- KI-gestuetzter Bewerbungsassistent
 
-## Kontakt
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin, Deutschland
+- Telefon: +49 30 959 988 700
 - Website: https://gastronomiestellenangebote.de
-- Arbeitgeber-Kontakt: https://gastronomiestellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://gastronomiestellenangebote.de/kontakt-bewerber
 
 ## Inhalte
-- Aktuelle Gastronomie-Stellenangebote
-- Karriere-Ratgeber fuer Gastronomie
+- Aktuelle Gastronomie-Stellenangebote in Deutschland, Oesterreich und der Schweiz
+- Berufsfelder: Koch, Servicekraft, Barkeeper, Hotelkaufmann, Restaurantleiter, Kuechenchef, Sommelier
+- Karriere-Ratgeber fuer Gastronomie und Hotellerie
 - Gehaltsvergleiche und Brancheninformationen
+- Arbeitgeber-Services: Stellenanzeigen, Recruiting-Loesungen
+
+## Seitenstruktur
+- / - Startseite mit aktuellen Stellenangeboten
+- /jobs - Alle Gastronomie-Stellenangebote durchsuchen
+- /arbeitgeber - Informationen fuer Arbeitgeber
+- /karriere - Karriere-Ratgeber
+- /impressum - Impressum und rechtliche Informationen
+- /datenschutz - Datenschutzerklaerung
+- /autor/thomas-sander - Ueber den Gruender Thomas Sander
+
+## Kontakt
+- E-Mail: info@socialmediaventure.com
+- Arbeitgeber-Kontakt: https://gastronomiestellenangebote.de/#/arbeitgeber
+- LinkedIn: https://de.linkedin.com/in/thomas-sander-520676303

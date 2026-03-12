@@ -6,14 +6,18 @@
   "jobTitle": "Gruender & Geschaeftsfuehrer",
   "worksFor": {
     "@type": "Organization",
-    "name": "gastronomiestellenangebote.de",
+    "name": "Social Media Venture GmbH",
     "url": "https://gastronomiestellenangebote.de"
   },
-  "description": "Gruender von gastronomiestellenangebote.de - spezialisiertes Jobportal fuer Gastronomie-Stellenangebote.",
+  "description": "HR-Tech-Experte und Gruender spezialisierter Jobportale fuer Fachkraefte in Deutschland.",
   "knowsAbout": [
     "Gastronomie",
+    "HR-Tech",
     "Personalwesen",
     "Recruiting",
     "Jobportale"
+  ],
+  "sameAs": [
+    "https://de.linkedin.com/in/thomas-sander-520676303"
   ]
 }

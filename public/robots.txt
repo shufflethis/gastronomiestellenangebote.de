@@ -1,4 +1,4 @@
-# HR-UPDATER: v1.0
+# robots.txt for gastronomiestellenangebote.de
 User-agent: *
 Allow: /
 
@@ -18,4 +18,7 @@ User-agent: Anthropic-ai
 Allow: /
 
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
