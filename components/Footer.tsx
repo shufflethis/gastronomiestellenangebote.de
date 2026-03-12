@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
               </li>
                <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-amber-500" />
-                <span>kontakt@gastro-jobs-beispiel.de</span>
+                <span>info@socialmediaventure.com</span>
               </li>
               <li><NavLink to="/impressum" className="hover:text-amber-500 transition-colors mt-2 block">Impressum & Datenschutz</NavLink></li>
             </ul>

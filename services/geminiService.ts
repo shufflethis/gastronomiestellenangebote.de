@@ -1,13 +1,14 @@
 import { GoogleGenAI } from "@google/genai";
 
-const apiKey = process.env.API_KEY || '';
+const FALLBACK_MESSAGE = "Der KI-Assistent ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.";
 
 // Initialize specific model for text tasks
 const MODEL_NAME = 'gemini-2.5-flash';
 
 export const generateCareerAdvice = async (userPrompt: string): Promise<string> => {
+  const apiKey = process.env.API_KEY || '';
   if (!apiKey) {
-    return "API Key fehlt. Bitte stellen Sie sicher, dass process.env.API_KEY gesetzt ist, um den KI-Assistenten zu nutzen.";
+    return FALLBACK_MESSAGE;
   }
 
   try {
@@ -30,6 +31,6 @@ export const generateCareerAdvice = async (userPrompt: string): Promise<string> 
     return response.text || "Entschuldigung, ich konnte keine Antwort generieren.";
   } catch (error) {
     console.error("Gemini API Error:", error);
-    return "Es ist ein Fehler bei der Kommunikation mit dem KI-Dienst aufgetreten.";
+    return FALLBACK_MESSAGE;
   }
 };
