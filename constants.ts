@@ -12,6 +12,193 @@ export const NAV_ITEMS: NavItem[] = [
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    company: 'Medisca GmbH',
+    location: 'Kabelsketal',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    tags: [],
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '2',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Zahnarzt (m/w/d)',
+    tags: [],
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '3',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Zahnarzt (m/w/d)',
+    tags: [],
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '4',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    tags: [],
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '5',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    tags: [],
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '6',
+    title: 'Fachkraft für Gastronomie (m/w/d)',
+    company: 'NGD Norddeutsche Gesellschaft für Diakonie e. V.',
+    location: 'Flensburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie (m/w/d)',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-13'
+  },
+  {
+    id: '7',
+    title: 'Fachkraft für Gastronomie',
+    company: 'Volkswagen',
+    location: 'Wolfsburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-13'
+  },
+  {
+    id: '8',
+    title: 'Fachkraft für Gastronomie',
+    company: 'Hofmeister',
+    location: 'Ehingen (Donau)',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-13'
+  },
+  {
+    id: '9',
+    title: 'Fachkraft für Gastronomie',
+    company: 'Hofmeister',
+    location: 'Bietigheim-Bissingen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-13'
+  },
+  {
+    id: '10',
+    title: 'Fachkraft für Gastronomie',
+    company: 'Hofmeister',
+    location: 'Sindelfingen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-13'
+  },
+  {
+    id: '11',
+    title: 'Fachkraft - Gastronomie',
+    company: 'K.u.K. Hofzuckerbäcker Ch.Demel\'s Söhne GmbH',
+    location: 'Wien,Innere Stadt',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-12'
+  },
+  {
+    id: '12',
+    title: 'Servicekraft (m/w/d) in der Gastronomie',
+    company: 'AMEOS Pflegegesellschaft Südholstein mbH & Co. KG',
+    location: 'Ratzeburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft (m/w/d) in der Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-11'
+  },
+  {
+    id: '13',
+    title: 'Fachkraft- Gastronomie',
+    company: 'MEDIAN Service IV GmbH',
+    location: 'Bad Oeynhausen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft- Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-10'
+  },
+  {
+    id: '14',
+    title: 'Fachkraft - Gastronomie',
+    company: 'Emrich Christopher',
+    location: 'Gallspach',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-10'
+  },
+  {
+    id: '15',
+    title: 'Fachkraft - Gastronomie',
+    company: 'Emrich Christopher',
+    location: 'Offenhausen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-10'
+  },
+  {
+    id: '16',
+    title: 'Werkstudent Gastronomie (m/w/d)',
+    company: 'Schwarz Corporate Solutions',
+    location: 'Neckarsulm',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Werkstudent Gastronomie (m/w/d)',
+    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
+    postedAt: '2026-03-10'
+  },
+  {
+    id: '17',
+    title: 'Fachkraft Gastronomie',
+    company: 'HAFFHUS GmbH',
+    location: 'Ueckermünde',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-09'
+  },
+  {
+    id: '18',
     title: 'Mitarbeiter (m/w/d) Gastronomie',
     company: 'Bruno Leo',
     location: 'Dillenburg',
@@ -22,7 +209,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-05'
   },
   {
-    id: '2',
+    id: '19',
     title: 'Teamleitung Gastronomie (m/w/d)',
     company: 'bewaffel dich betriebsgesellschaft mbH',
     location: 'Halle (Saale)',
@@ -33,7 +220,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-05'
   },
   {
-    id: '3',
+    id: '20',
     title: 'Fachkraft Gastronomie (m/w/d)',
     company: 'Seitenbacher KG Naturkost',
     location: 'Buchen (Odenwald)',
@@ -44,7 +231,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-05'
   },
   {
-    id: '4',
+    id: '21',
     title: 'Servicekraft Gastronomie',
     company: 'Rene Reuter Reuters Kitchen Catering & Service',
     location: 'Düsseldorf',
@@ -55,7 +242,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '5',
+    id: '22',
     title: 'Fachkraft - Gastronomie',
     company: 'Zum Oberjäger Hotel Betrieb s GmbH',
     location: 'Lackenbach',
@@ -66,7 +253,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '6',
+    id: '23',
     title: 'Servicemitarbeiter für die Gastronomie (m/w/d) *Minijob*',
     company: 'Theater Lübeck gGmbH',
     location: 'Lübeck',
@@ -77,7 +264,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '7',
+    id: '24',
     title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
     company: 'Restaurant in der Rommelmühle',
     location: 'Bietigheim-Bissingen',
@@ -88,7 +275,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '8',
+    id: '25',
     title: 'Fachkraft Gastronomie ? (w/m/d)',
     company: 'BUHL Personal GmbH - Niederlassung Leipzig',
     location: 'Leipzig',
@@ -97,193 +284,6 @@ export const MOCK_JOBS: Job[] = [
     description: 'Fachkraft Gastronomie ? (w/m/d)',
     tags: ['Restaurantfachmann/-frau'],
     postedAt: '2026-03-04'
-  },
-  {
-    id: '9',
-    title: 'Servicekraft ? (w/m/d) - Gastronomie',
-    company: 'BUHL Personal GmbH - Niederlassung Leipzig',
-    location: 'Leipzig',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft ? (w/m/d) - Gastronomie',
-    tags: ['Restaurantfachmann/-frau'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '10',
-    title: 'Studentenjob ? (w/m/d) - Gastronomie',
-    company: 'BUHL Personal GmbH - Niederlassung Leipzig',
-    location: 'Leipzig',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Studentenjob ? (w/m/d) - Gastronomie',
-    tags: ['Restaurantfachmann/-frau'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '11',
-    title: 'Servicekraft ? (w/m/d) - Gastronomie',
-    company: 'BUHL Personal GmbH - Niederlassung Dortmund',
-    location: 'Dortmund',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft ? (w/m/d) - Gastronomie',
-    tags: ['Restaurantfachmann/-frau'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '12',
-    title: 'Studentenjob ? (w/m/d) - Gastronomie',
-    company: 'BUHL Personal GmbH - Niederlassung Kassel',
-    location: 'Kassel, Hessen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Studentenjob ? (w/m/d) - Gastronomie',
-    tags: ['Restaurantfachmann/-frau'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '13',
-    title: 'Studentenjob ? (w/m/d) - Gastronomie',
-    company: 'BUHL Personal GmbH - Niederlassung Kassel',
-    location: 'Fulda',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Studentenjob ? (w/m/d) - Gastronomie',
-    tags: ['Restaurantfachmann/-frau'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '14',
-    title: 'Servicekraft ? (w/m/d) - Gastronomie',
-    company: 'BUHL Personal GmbH - Niederlassung Kassel',
-    location: 'Fulda',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft ? (w/m/d) - Gastronomie',
-    tags: ['Restaurantfachmann/-frau'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '15',
-    title: 'Servicemitarbeiter (m/w/d) Gastronomie in Leonberg',
-    company: 'tempster GmbH',
-    location: 'Leonberg, Württemberg',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicemitarbeiter (m/w/d) Gastronomie in Leonberg',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '16',
-    title: 'Servicekraft - Gastronomie und Gastgewerbe',
-    company: 'TRANSFER Planconsult Datentransfer und Anlagenconsulting GmbH',
-    location: 'Wien',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft - Gastronomie und Gastgewerbe',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '17',
-    title: 'Servicekraft - Gastronomie und Gastgewerbe',
-    company: 'Andi\'s Skihotel GmbH',
-    location: 'Obertauern',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft - Gastronomie und Gastgewerbe',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-03'
-  },
-  {
-    id: '18',
-    title: 'Servicekräfte in der Gastronomie',
-    company: 'FM Culinary GmbH',
-    location: 'Bad Schönborn',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekräfte in der Gastronomie',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-02'
-  },
-  {
-    id: '19',
-    title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
-    company: 'Stiftl Gastronomie Unternehmensgruppe',
-    location: 'München',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-02'
-  },
-  {
-    id: '20',
-    title: 'Servicekraft - Gastronomie und Gastgewerbe',
-    company: 'La Strada Robert Yaldiz Gastronomie GmbH',
-    location: 'Herzogenburg',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft - Gastronomie und Gastgewerbe',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-02'
-  },
-  {
-    id: '21',
-    title: 'Servicekraft (m/w/d) Gastronomie & Hotellerie',
-    company: 'ARWA Personaldienstleistungen GmbH',
-    location: 'Dresden',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft (m/w/d) Gastronomie & Hotellerie',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-02'
-  },
-  {
-    id: '22',
-    title: 'Fachkraft für Gastronomie Schwerpunkt Systemgastronomie',
-    company: 'ABV Braunschweig/MD e.V. - Lohn',
-    location: 'Braunschweig',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie Schwerpunkt Systemgastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-03-02'
-  },
-  {
-    id: '23',
-    title: 'Servicemitarbeiter (m/w/d) in der Gastronomie',
-    company: 'BESTSTEPS by Bernd Konschak',
-    location: 'Werl',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicemitarbeiter (m/w/d) in der Gastronomie',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-01'
-  },
-  {
-    id: '24',
-    title: 'Servicekraft-Gastronomie (m/w/d)',
-    company: 'Hotel-Restaurant Die kleine Blume GmbH',
-    location: 'Erfweiler',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft-Gastronomie (m/w/d)',
-    tags: ['Hotelfachmann/-frau'],
-    postedAt: '2026-03-01'
-  },
-  {
-    id: '25',
-    title: 'Gastronomie Helfer/in',
-    company: 'Cafe-Bistro "Zum Vasi"',
-    location: 'St. Blasien',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Gastronomie Helfer/in',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-02-27'
   }
 ];
 
