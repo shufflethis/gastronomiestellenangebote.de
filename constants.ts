@@ -12,6 +12,160 @@ export const NAV_ITEMS: NavItem[] = [
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
+    company: 'Elevate Aircraft Seating GmbH',
+    location: 'Kaiserslautern',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
+    tags: [],
+    postedAt: '2026-03-22'
+  },
+  {
+    id: '2',
+    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    company: 'Serviscope AG',
+    location: 'Köln',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    tags: [],
+    postedAt: '2026-03-22'
+  },
+  {
+    id: '3',
+    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    company: 'Serviscope AG',
+    location: 'Troisdorf',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    tags: [],
+    postedAt: '2026-03-22'
+  },
+  {
+    id: '4',
+    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    company: 'Scheidt & Bachmann Signalling Systems GmbH',
+    location: 'Düsseldorf',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    tags: [],
+    postedAt: '2026-03-22'
+  },
+  {
+    id: '5',
+    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    company: 'Scheidt & Bachmann Signalling Systems GmbH',
+    location: 'Mönchengladbach',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    tags: [],
+    postedAt: '2026-03-22'
+  },
+  {
+    id: '6',
+    title: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
+    company: 'Gemeinde HudeSofort-Bewerbung',
+    location: 'Hude (Oldb)',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
+    tags: [],
+    postedAt: '2026-03-22'
+  },
+  {
+    id: '7',
+    title: 'Fachkraft - Gastronomie',
+    company: 'Geier. Die Bäckerei GmbH',
+    location: 'Deutsch-Wagram',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-20'
+  },
+  {
+    id: '8',
+    title: 'Fachkraft - Gastronomie',
+    company: 'Geier. Die Bäckerei GmbH',
+    location: 'Zistersdorf',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-20'
+  },
+  {
+    id: '9',
+    title: 'Fachkraft - Gastronomie',
+    company: 'Gerstner Exhibition Congress Catering Messe Wien',
+    location: 'Wien,Leopoldstadt',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    tags: ['Fachkraft - Gastronomie'],
+    postedAt: '2026-03-20'
+  },
+  {
+    id: '10',
+    title: 'Servicemitarbeiter in der Gastronomie (m/w/d)',
+    company: 'Weingut Holler',
+    location: 'Hösbach',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicemitarbeiter in der Gastronomie (m/w/d)',
+    tags: ['Fachkraft - Gastgewerbe'],
+    postedAt: '2026-03-20'
+  },
+  {
+    id: '11',
+    title: 'Servicekraft in der Gastronomie',
+    company: 'Jonas Jensen',
+    location: 'Glückstadt',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft in der Gastronomie',
+    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
+    postedAt: '2026-03-19'
+  },
+  {
+    id: '12',
+    title: 'Servicekraft in der Gastronomie (m/w/d)',
+    company: 'dasrößle eG',
+    location: 'Todtnau',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft in der Gastronomie (m/w/d)',
+    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
+    postedAt: '2026-03-19'
+  },
+  {
+    id: '13',
+    title: 'Servicekraft Gastronomie',
+    company: 'Seelounge - Inhaber Matthias Schwedler',
+    location: 'Senftenberg, Niederlausitz',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft Gastronomie',
+    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
+    postedAt: '2026-03-16'
+  },
+  {
+    id: '14',
+    title: 'Mitarbeiter (m/w/d) Gastronomie',
+    company: 'Lühmann Tankstellen Betriebs GmbH & Co. KG',
+    location: 'Bad Wildungen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter (m/w/d) Gastronomie',
+    tags: ['Fachkraft - Gastronomie (Systemgastronomie)'],
+    postedAt: '2026-03-16'
+  },
+  {
+    id: '15',
     title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
     company: 'Medisca GmbH',
     location: 'Kabelsketal',
@@ -22,7 +176,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-15'
   },
   {
-    id: '2',
+    id: '16',
     title: 'Zahnarzt (m/w/d)',
     company: 'MeinDentist Berlin GmbH',
     location: 'Potsdam',
@@ -33,7 +187,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-15'
   },
   {
-    id: '3',
+    id: '17',
     title: 'Zahnarzt (m/w/d)',
     company: 'MeinDentist Berlin GmbH',
     location: 'Berlin',
@@ -44,7 +198,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-15'
   },
   {
-    id: '4',
+    id: '18',
     title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
     company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
     location: 'Hannover',
@@ -55,7 +209,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-15'
   },
   {
-    id: '5',
+    id: '19',
     title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
     company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
     location: 'Isernhagen',
@@ -66,7 +220,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-15'
   },
   {
-    id: '6',
+    id: '20',
     title: 'Fachkraft für Gastronomie (m/w/d)',
     company: 'NGD Norddeutsche Gesellschaft für Diakonie e. V.',
     location: 'Flensburg',
@@ -77,7 +231,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-13'
   },
   {
-    id: '7',
+    id: '21',
     title: 'Fachkraft für Gastronomie',
     company: 'Volkswagen',
     location: 'Wolfsburg',
@@ -88,7 +242,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-13'
   },
   {
-    id: '8',
+    id: '22',
     title: 'Fachkraft für Gastronomie',
     company: 'Hofmeister',
     location: 'Ehingen (Donau)',
@@ -99,7 +253,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-13'
   },
   {
-    id: '9',
+    id: '23',
     title: 'Fachkraft für Gastronomie',
     company: 'Hofmeister',
     location: 'Bietigheim-Bissingen',
@@ -110,7 +264,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-13'
   },
   {
-    id: '10',
+    id: '24',
     title: 'Fachkraft für Gastronomie',
     company: 'Hofmeister',
     location: 'Sindelfingen',
@@ -121,7 +275,7 @@ export const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-13'
   },
   {
-    id: '11',
+    id: '25',
     title: 'Fachkraft - Gastronomie',
     company: 'K.u.K. Hofzuckerbäcker Ch.Demel\'s Söhne GmbH',
     location: 'Wien,Innere Stadt',
@@ -130,160 +284,6 @@ export const MOCK_JOBS: Job[] = [
     description: 'Fachkraft - Gastronomie',
     tags: ['Fachkraft - Gastronomie'],
     postedAt: '2026-03-12'
-  },
-  {
-    id: '12',
-    title: 'Servicekraft (m/w/d) in der Gastronomie',
-    company: 'AMEOS Pflegegesellschaft Südholstein mbH & Co. KG',
-    location: 'Ratzeburg',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft (m/w/d) in der Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-03-11'
-  },
-  {
-    id: '13',
-    title: 'Fachkraft- Gastronomie',
-    company: 'MEDIAN Service IV GmbH',
-    location: 'Bad Oeynhausen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft- Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-03-10'
-  },
-  {
-    id: '14',
-    title: 'Fachkraft - Gastronomie',
-    company: 'Emrich Christopher',
-    location: 'Gallspach',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft - Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-03-10'
-  },
-  {
-    id: '15',
-    title: 'Fachkraft - Gastronomie',
-    company: 'Emrich Christopher',
-    location: 'Offenhausen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft - Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-03-10'
-  },
-  {
-    id: '16',
-    title: 'Werkstudent Gastronomie (m/w/d)',
-    company: 'Schwarz Corporate Solutions',
-    location: 'Neckarsulm',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Werkstudent Gastronomie (m/w/d)',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-10'
-  },
-  {
-    id: '17',
-    title: 'Fachkraft Gastronomie',
-    company: 'HAFFHUS GmbH',
-    location: 'Ueckermünde',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-03-09'
-  },
-  {
-    id: '18',
-    title: 'Mitarbeiter (m/w/d) Gastronomie',
-    company: 'Bruno Leo',
-    location: 'Dillenburg',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter (m/w/d) Gastronomie',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-05'
-  },
-  {
-    id: '19',
-    title: 'Teamleitung Gastronomie (m/w/d)',
-    company: 'bewaffel dich betriebsgesellschaft mbH',
-    location: 'Halle (Saale)',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Teamleitung Gastronomie (m/w/d)',
-    tags: ['Fachkraft - Küche'],
-    postedAt: '2026-03-05'
-  },
-  {
-    id: '20',
-    title: 'Fachkraft Gastronomie (m/w/d)',
-    company: 'Seitenbacher KG Naturkost',
-    location: 'Buchen (Odenwald)',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft Gastronomie (m/w/d)',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-03-05'
-  },
-  {
-    id: '21',
-    title: 'Servicekraft Gastronomie',
-    company: 'Rene Reuter Reuters Kitchen Catering & Service',
-    location: 'Düsseldorf',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft Gastronomie',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '22',
-    title: 'Fachkraft - Gastronomie',
-    company: 'Zum Oberjäger Hotel Betrieb s GmbH',
-    location: 'Lackenbach',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft - Gastronomie',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '23',
-    title: 'Servicemitarbeiter für die Gastronomie (m/w/d) *Minijob*',
-    company: 'Theater Lübeck gGmbH',
-    location: 'Lübeck',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicemitarbeiter für die Gastronomie (m/w/d) *Minijob*',
-    tags: ['Fachkraft - Gastronomie'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '24',
-    title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
-    company: 'Restaurant in der Rommelmühle',
-    location: 'Bietigheim-Bissingen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
-    tags: ['Servicekraft - Gastronomie und Gastgewerbe'],
-    postedAt: '2026-03-04'
-  },
-  {
-    id: '25',
-    title: 'Fachkraft Gastronomie ? (w/m/d)',
-    company: 'BUHL Personal GmbH - Niederlassung Leipzig',
-    location: 'Leipzig',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft Gastronomie ? (w/m/d)',
-    tags: ['Restaurantfachmann/-frau'],
-    postedAt: '2026-03-04'
   }
 ];
 
